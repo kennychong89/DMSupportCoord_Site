@@ -18,6 +18,13 @@ p, h2, h3, h4, h5, h6 {
 	margin-bottom: 18px;
 }
 
+html {
+	background-image: url('../images/clouds.png');
+	background-repeat: repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
 #page {
 	display: block;
 	width: 900px;
