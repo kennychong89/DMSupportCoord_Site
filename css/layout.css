@@ -1,0 +1,145 @@
+/*
+* CSS stylesheet for wecarenj site.
+* Kenny Chong
+* 5/4/2014
+*/
+
+/* 
+* CSS reset
+*/
+body, p, h1, h2, h3, h4, h5, h6, ul, li, form {
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+
+p, h2, h3, h4, h5, h6 {
+	margin-bottom: 18px;
+}
+
+#page {
+	display: block;
+	width: 900px;
+	margin: 0px auto;
+}
+
+header {
+	width: 100%;
+	margin-top: 13px;
+}
+
+nav {
+	margin-top: 2px;
+	margin-bottom: 20px;
+	background-color: #b6a5a5;
+}
+
+	nav ul {
+		padding-top: 20px;
+		padding-left: 15px;
+	}
+
+	nav ul li {
+		list-style: none;
+		display: inline;
+		padding-right: 15px;
+	}
+
+	nav ul li a {
+		text-decoration: none;
+		color: #ffffff;
+	}
+
+#middle {
+	width: 100%;
+	float: left;
+}
+
+/* Sidebar Stuff */
+#middle #sidebar {
+	width: 253px;
+	float: left;
+	margin-right: 20px;
+}
+
+	#sidebar h2.sidebar-header {
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 18px;
+		padding-top: 15px;
+	}
+
+		/* Top sidebar */
+		#sidebar #top_sidebar {
+			background-color: #6599ff;
+			color: #ffffff;
+		} 
+
+		#sidebar #top_sidebar p {
+			line-height: 25px;
+			font-weight: bold;
+		}
+
+		#sidebar #top_sidebar .social ul li {
+			display: inline;
+			list-style: none;
+			padding-left: 15px;
+		}
+
+		#sidebar #top_sidebar address, #sidebar #top_sidebar .social {
+			padding-left: 10px;
+		}
+
+		/* Bottom sidebar */
+		#sidebar #bottom_sidebar {
+			background-color: #99ccff;
+			color: #ffffff;
+			margin-top: 12px;
+		}
+
+		#sidebar #bottom_sidebar ul {
+			padding-bottom: 5px;
+		}
+
+		#sidebar #bottom_sidebar ul li{
+			list-style: none;
+			padding-left: 15px;
+		}
+
+/* Main Stuff */
+#middle #main {
+	width: 591px;
+	float: left;
+}
+	#main .main_image {
+		width: 100%;
+	}
+
+	#main #mission_text {
+		margin-top: 18px;
+		clear: both;
+	}
+
+	#main #mission_text .mission_title {
+		font-size: 20px;
+		padding-bottom: 15px;
+	}
+
+	#main #mission_text p {
+		line-height: 22px;
+	}
+
+
+/* Footer Stuff */
+footer {
+	text-align: center;
+	background-color: #097054;
+	clear: both;
+	height: 150px;
+	padding-top: 20px;
+}
+
+footer p {
+	color: #ffffff;
+}
